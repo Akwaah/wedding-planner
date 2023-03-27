@@ -13,7 +13,7 @@ body {
   /* padding-left: 15rem;
   padding-right: 15rem; */
   /* padding: 0 25rem; */
-  width: 70rem;
+  /* width: 70rem; */
 }
 
 /* Neutrals */
@@ -221,25 +221,25 @@ body {
   }
   .P300 {
     font-weight: 400;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     line-height: 24px;
   }
 
   .P250 {
     font-weight: 600;
-    font-size: 0.5rem;
+    font-size: 1rem;
     line-height: 24px;
   }
 
   .P200 {
     font-weight: 400;
-    font-size: 0.5rem;
+    font-size: 1rem;
     line-height: 24px;
   }
 
   .P100 {
     font-weight: 400;
-    font-size: 0.433rem;
+    font-size: 0.833rem;
     line-height: 16px;
   }
 }
@@ -308,19 +308,19 @@ body {
   }
   .P300 {
     font-weight: 400;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     line-height: 24px;
   }
 
   .P250 {
     font-weight: 600;
-    font-size: 0.5rem;
+    font-size: 1rem;
     line-height: 24px;
   }
 
   .P200 {
     font-weight: 400;
-    font-size: 0.5rem;
+    font-size: 1rem;
     line-height: 24px;
   }
 

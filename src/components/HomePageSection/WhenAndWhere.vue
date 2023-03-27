@@ -3,7 +3,7 @@
     <div id="whenNwhere" class="whenNwhere p-10 container ">
           <div class="text-center P400 N600 mb-10">When & Where</div>
           <div class="row g-3">
-            <div class="col-6 pl-0">
+            <div class="col-md-6 col-12 pl-0">
               <div class="card border-0">
                 <img
                   src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/event-party-540x270.jpg"
@@ -25,7 +25,7 @@
               </div>
             </div>
 
-            <div class="col-6 pr-0">
+            <div class="col-md-6 col-12 pr-0">
               <div class="card border-0">
                 <img
                   src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/event-ceremony-540x270.jpg"

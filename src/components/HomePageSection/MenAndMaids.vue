@@ -3,6 +3,7 @@
         <div class="menAndMaids p-10 container">
             <div class="text-center P400 N600 mb-10">The Groomsmen</div>
 
+            <div class=" d-none d-md-block">
             <div class="hstack gap-3">
                 <ProfileImage/>
                 <ProfileImage/>
@@ -10,7 +11,18 @@
                 <ProfileImage/>
                 <ProfileImage/>
                 <ProfileImage/>
-</div>
+            </div>
+        </div>
+        <div class=" d-block d-md-none">
+            <div class="vstack gap-3 ">
+                <ProfileImage/>
+                <ProfileImage/>
+                <ProfileImage/>
+                <ProfileImage/>
+                <ProfileImage/>
+                <ProfileImage/>
+            </div>
+        </div>
         </div>
     </div>
 </template>

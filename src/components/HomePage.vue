@@ -101,7 +101,7 @@ export default {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) { */
   .center {
     justify-content: center;
     align-items: center;
@@ -140,6 +140,7 @@ export default {
     /* height: 43.5vh; */
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
   }
   .whenNwhere {
     /* height: 90vh; */
@@ -165,7 +166,7 @@ export default {
   }
 
   .menAndMaids {
-    height: 50vh;
+    /* height: 50vh; */
   }
 
   .quotes {
@@ -186,5 +187,5 @@ export default {
   .footerImage {
     height: 5rem;
   }
-}
+/* } */
 </style>
