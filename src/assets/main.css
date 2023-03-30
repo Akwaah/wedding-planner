@@ -212,12 +212,14 @@ body {
     font-weight: 700;
     font-size: 0.379rem;
     line-height: 12px;
+    
   }
   .P400 {
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 24px;
     font-family: 'Alex Brush' !important;
+    color: #b13a1a70 !important;
   }
   .P300 {
     font-weight: 400;

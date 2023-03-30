@@ -2,14 +2,14 @@
     <div id="aboutUs" class="aboutUs  p-10 container bg-white">
           <div class="borde text-center P400 N600 pb-10">Groom & Bride</div>
 
-          <div class="row bg-light ">
+          <div class="row bgColor2 ">
             <div
               class="col-md-6  p-0 brideGroomImage d-flex justify-content-center"
               
             >
               <!-- <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-groom-540x405.jpg" alt="" srcset=""> -->
             </div>
-            <div class="col-md-6 my-auto p-10">
+            <div class="col-md-6 my-auto p-10 ">
               <ProfileCard/>
             </div>
             <div class="col-md-6 my-auto p-10 py-10 d-none d-md-block">

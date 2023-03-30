@@ -181,7 +181,7 @@ export default {
 .gridywrap .gridinfo h3:after {
   content: '';
   width: 25px;
-  border-top: 4px solid #fff;
+  /* border-top: 4px solid #fff; */
   display: block;
   margin: 0 auto;
   margin-top: 25px;
@@ -210,13 +210,6 @@ export default {
   transition-delay: 0.5s;
 }
 
-.gridywrap .gridinfo * {
-  opacity: 0;
-  transition: all 0.8s;
-}
-.gridywrap .gridinfo h3 {
-  opacity: 1;
-}
 .gridywrap .gridinfo .grid-btn {
   color: #fff;
   text-decoration: none;
@@ -224,8 +217,8 @@ export default {
   width: 35px;
   height: 35px;
   line-height: 35px;
-  border-radius: 25px;
-  border: 1px solid #fff; 
+  /* border-radius: 25px; */
+  /* border: 1px solid #fff;  */
   display: block;
   overflow: hidden;
 }
@@ -233,33 +226,11 @@ export default {
   width: 75px;
   background: rgba(0,0,0,0.3);
 }
-.gridywrap .gridinfo .grid-btn span {
-  opacity: 0;
-  display: none;
-  transition: opacity 0.8s;
-}
-.gridywrap .gridinfo .grid-btn:hover span {
-  opacity: 1;
-  display: inline;
-}
-.gridywrap .gridinfo .grid-btn:hover i {
-  opacity: 0;
-  display: none;
-}
 
-.gridywrap .gridinfo:hover * {
-  opacity: 0.7;
-}
-.gridywrap .gridinfo:hover p {
-  opacity: 1;
-}
 .gridywrap .gridinfo {
   background: rgba(15, 15, 15, 0.3);
 }
-.gridywrap .gridinfo:hover h3 {
-  margin-top: 70px;
-  opacity: 1;
-}
+
 
 
 </style>

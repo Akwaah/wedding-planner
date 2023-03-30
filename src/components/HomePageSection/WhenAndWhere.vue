@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light">
+    <div class="bgColor2">
     <div id="whenNwhere" class="whenNwhere p-10 container ">
           <div class="text-center P400 N600 mb-10">When & Where</div>
           <div class="row g-3">

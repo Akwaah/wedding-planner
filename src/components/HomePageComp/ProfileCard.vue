@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <div class="P300 N700 py-5">Jojo Abbiw</div>
               <div class="P200 N600">
                 Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
