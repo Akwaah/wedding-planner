@@ -5818,6 +5818,11 @@ vue@^3.2.47:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
+vuejs-countdown@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/vuejs-countdown/-/vuejs-countdown-0.2.1.tgz#184fc578356cba88f7b5356881ea7e123e5bf259"
+  integrity sha512-X0zirdW1Go+nhMis93sJz2fi3b82XEG3PmmlK9VnvmtQEHk8YcjuY8wOIxhzkD95h7sadK43sxbaVXRbpSmEpQ==
+
 wait-on@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/wait-on/-/wait-on-7.0.1.tgz#5cff9f8427e94f4deacbc2762e6b0a489b19eae9"

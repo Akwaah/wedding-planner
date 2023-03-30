@@ -29,6 +29,10 @@ export default {
 
 <style  scoped>
 .foot {
+  position: absolute;
+  /* top: 0px; */
+  /* bottom: 0px; */
+  width: 100%;
     height: 35rem;
     background-image: url(https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/footer.jpg);
     background-repeat: no-repeat;

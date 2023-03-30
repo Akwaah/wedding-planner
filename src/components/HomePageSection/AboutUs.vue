@@ -1,5 +1,5 @@
 <template>
-    <div id="aboutUs" class="aboutUs  p-10 container">
+    <div id="aboutUs" class="aboutUs  p-10 container bg-white">
           <div class="borde text-center P400 N600 pb-10">Groom & Bride</div>
 
           <div class="row bg-light ">
@@ -55,20 +55,20 @@ export default {
 <style scoped>
 
 .brideGroomImage {
-  background-image: url(https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-groom-540x405.jpg);
+  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg);
     height: 50.5vh;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .imageCover {
-  background-image: url(https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-bride-540x405.jpg);
+  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203699/CG7A3050_tvdisn.jpg);
   /* position: relative; */
     /* width: 50%; */
     /* height: 100%; */
     height: 50.5vh;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }

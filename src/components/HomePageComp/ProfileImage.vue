@@ -1,16 +1,24 @@
 <template>
   <div class="">
     <img
-      class="avatar mx-auto"
-      src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/intro-groom.png"
+      class="avatar mx-auto rounded-circle"
+      :src='whoarewe.photo'
       alt="Rounded avatar"
     />
-    <div class="P300 N600 text-center">Jojo Akwaah Abbiw</div>
+    <div class="P300 N600 text-center mt-5">{{ whoarewe.name }}</div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+   whoarewe: {
+    id: Number,
+    photo: String,
+    name: String
+   },
+   
+  },
   name: 'WeddingProfileImage',
 
   data() {
@@ -23,4 +31,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.avatar {
+    width: 15rem;
+    height: 15rem;
+  }
+</style>

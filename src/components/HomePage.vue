@@ -1,9 +1,10 @@
 <template>
   <div>
-    <div>
+    <div class="bg-white">
       <!-- banner Image -->
       <div class="overlay">
         <div id="imgBanner" class="imgBanner center mx-auto">
+          <div class="gridinfo"></div>
           <img
             src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/hero-logo.png"
             alt=""
@@ -20,7 +21,9 @@
       <WhoAreWe />
 
       <!-- count down timer -->
-      <div class="countdown border center bg-light">timer</div>
+      <div class="countdown border center bg-light">
+        <!-- <Countdown end="August 22, 2023"></Countdown> -->
+      </div>
 
       <!-- about us -->
       <AboutUs/>
@@ -47,14 +50,17 @@
       </div>
 
       <!-- Grooms and braidmaids -->
-      <MenAndMaids/>
-      <MenAndMaids/>
+      <!-- <MenAndMaids/>
+      <MenAndMaids/> -->
 
       <!-- Quotes -->
       <Quotes/>
 
+      <!-- Photo Gallery -->
+      <PhotoGallerySection/>
+
       <!-- Footer -->
-      <FooterSection/>
+      <!-- <FooterSection/> -->
       
     </div>
   </div>
@@ -68,6 +74,8 @@ import Quotes from './HomePageSection/Quotes.vue'
 import WhenAndWhere from './HomePageSection/WhenAndWhere.vue'
 import WhoAreWe from './HomePageSection/WhoAreWe.vue'
 import FooterSection from './HomePageSection/FooterSection.vue'
+import PhotoGallerySection from './HomePageSection/PhotoGallerySection.vue'
+import Countdown from 'vuejs-countdown'
 
 export default {
   name: 'WeddingHomePage',
@@ -76,12 +84,23 @@ export default {
   },
   mounted() {},
   methods: {},
-  components: { Navbar, WhoAreWe, AboutUs, WhenAndWhere, MenAndMaids, Quotes, FooterSection }
+  components: { Countdown, Navbar, WhoAreWe, AboutUs, WhenAndWhere, MenAndMaids, Quotes, PhotoGallerySection, FooterSection }
 }
 </script>
 
 <style >
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.gridinfo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+  transition: all 0.8s;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -111,7 +130,7 @@ export default {
     height: 100vh;
     /* width: 100vw; */
     background-color: aqua;
-    background-image: url(https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/hero4.jpg);
+    background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -179,7 +198,7 @@ export default {
   }
 
   .footer {
-    height: 75vh;
+    /* height: 75vh; */
     background-image: url(https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/rsvp.jpg);
     background-repeat: no-repeat;
   }

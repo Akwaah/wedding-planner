@@ -1,11 +1,11 @@
 <template>
-  <div id="whoWeAre" class="whoWeAre border p-10  center">
+  <div id="whoWeAre" class="whoWeAre border p-10  center bg-white">
     
       <div class="row">
-        <div class="col-5 mx-auto">
-          <ProfileImage />
+        <div class="col-md-5 mx-auto">
+          <ProfileImage :whoarewe="groom"/>
         </div>
-        <div class="col-2 d-flex justify-content-center align-items-center">
+        <div class="col-md-2 py-xs-10 d-flex justify-content-center align-items-center">
           <img
             width="160"
             height="100"
@@ -14,9 +14,9 @@
             loading="lazy"
           />
         </div>
-        <div class="col-5">
+        <div class="col-md-5">
           
-          <ProfileImage />
+          <ProfileImage :whoarewe="bride"/>
         </div>
  
       <div class="text-center mt-5">
@@ -34,7 +34,19 @@ export default {
   name: 'WeddingWhoAreWe',
 
   data() {
-    return {}
+    return {
+      groom : {
+          id: 1,
+          name: "Jojo Abbiw",
+          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680212991/Jojo_Akwaah_Abbiw_nlfvff.jpg"
+        },
+       bride: {
+          id: 2,
+          name: "Alberta Opoku-Mensah",
+          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg"
+        }
+      
+    }
   },
 
   mounted() {},
