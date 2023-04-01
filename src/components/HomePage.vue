@@ -1,15 +1,17 @@
 <template>
   <div>
-    <div class="bg-white">
+    <div class="bgColor" >
       <!-- banner Image -->
-      <div class="overlay">
-        <div id="imgBanner" class="imgBanner center mx-auto">
+      <div class="overlay boderAroundT" style="">
+        <div id="imgBanner" class="imgBanner center mx-auto " style="">
           <div class="gridinfo"></div>
-          <img
+          
+        </div>
+        <img
             src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/hero-logo.png"
             alt=""
+            class="imgCenter"
           />
-        </div>
       </div>
 
       <!--Navbar  -->
@@ -21,28 +23,33 @@
       <WhoAreWe />
 
       <!-- count down timer -->
-      <div class="countdown center bgColor">
+      <div class="countdown center bgColor boderAroundB" style="">
         <!-- <Countdown end="August 22, 2023"></Countdown> -->
       </div>
 
       <!-- about us -->
+      <div class="boderAroundT">
       <AboutUs/>
+    </div>
       
 
       <!-- when and where -->
+      <div class="boderAroundB">
       <WhenAndWhere/>
+    </div>
       
 
       <!-- map -->
-      <div id="map" class="map py-10 center bgColor2">
+      <div id="map" class="map py-10 center bgColor2 boderAroundT">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.8364135748293!2d-0.32200338474948165!3d5.591178034848167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfa3ced6d60fb5%3A0x7ba525d2f6eebb8e!2sLinda%20Dor%20Restaurant%20(Main)!5e0!3m2!1sen!2sgh!4v1679568284737!5m2!1sen!2sgh" width="10000rem" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
       <!-- Gift Registry -->
-      <div class="giftRegistry py-10 borde center">Gift Registry</div>
+      <!-- <div class="giftRegistry py-10 borde center">Gift Registry</div> -->
 
       <!-- RSVP -->
-      <div id="rsvp" class="rsvp my-10 border center">
+      <div id="rsvp" class="rsvp py-10 center boderAroundB">
+        <div class="gridinfo"></div>
         <!-- <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/rsvp.jpg" width="1600" height="900" data-stellar-ratio="0.5" alt="" style="opacity: 1; transform: translate3d(0px, -128.409px, 0px); width: 1903px; height: 1070.44px; margin-top: -58.3827px; margin-left: 0px;"> -->
         <div class="container">
           <form action=""></form>
@@ -54,10 +61,14 @@
       <MenAndMaids/> -->
 
       <!-- Quotes -->
+      <div class="boderAroundT">
       <Quotes/>
+    </div>
 
       <!-- Photo Gallery -->
+      <div class="boderAroundB">
       <PhotoGallerySection/>
+    </div>
 
       <!-- Footer -->
       <!-- <FooterSection/> -->
@@ -92,11 +103,37 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 .bgColor {
-  background-color: #d0edf530;
+  background-color: #d0edf560;
+}
+
+.bgNav {
+  background-color: #d0edf5;
 }
 
 .bgColor2 {
   background-color: #b13a1a15;
+}
+
+.imgCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.boderAroundT {
+  /* border-radius: 0 1rem 1rem 0rem; 
+  border: 0.3rem solid #b13a1a; 
+  border-left: 0px; 
+  border-bottom: 0.3rem */
+}
+
+.boderAroundB {
+  /* border-radius: 1rem 0rem 0rem 1rem; 
+  border: 0.3rem solid #b13a1a;
+  border-right: 0;
+  border-bottom: 0.3rem */
 }
 
 .gridinfo {
@@ -137,10 +174,13 @@ export default {
   .imgBanner {
     height: 100vh;
     /* width: 100vw; */
-    background-color: aqua;
+    /* background-color: #d0edf530; */
     background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    filter: blur(1px);
+  /* -webkit-filter: blur(3px); */
+
   }
   .overlay {
     /* height: 100vh;

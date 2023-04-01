@@ -1,7 +1,7 @@
 <template>
     <div class="bgColor2">
     <div id="whenNwhere" class="whenNwhere p-10 container ">
-          <div class="text-center P400 N600 mb-10">When & Where</div>
+          <div class="text-center H900 N600 mb-10">When & Where</div>
           <div class="row g-3">
             <div class="col-md-6 col-12 pl-0">
               <div class="card border-0">
@@ -12,14 +12,14 @@
                 <div class="p-10                       
                  text-center">
                   <div class="P300 N700 pb-5 text-capitalize">Engagement</div>
-                  <div class="P150 N600">
+                  <!-- <div class="P150 N600">
                     Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
                     ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
                     condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed
                     ipsum.
-                  </div>
+                  </div> -->
                   <div class="P200 N700 py-5 text-capitalize">
-                    Sunday, 14 February, 2016 — 10.00 AM — St. Peter Park, Kuta, Bali
+                    Friday, 21 April, 2022 — 10.00 AM — Bunso, Eastern Region
                   </div>
                 </div>
               </div>
@@ -33,14 +33,14 @@
                 />
                 <div class="p-10 text-center">
                   <div class="P300 N700 pb-5 text-capitalize">Wedding</div>
-                  <div class="P150 N600">
+                  <!-- <div class="P150 N600">
                     Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
                     ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
                     condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed
                     ipsum.
-                  </div>
+                  </div> -->
                   <div class="P200 N700 py-5 text-capitalize">
-                    Sunday, 14 February, 2016 — 10.00 AM — St. Peter Park, Kuta, Bali
+                    Saturday, 22 April, 2022 — 9.00 AM — Church of Pentecost - Firestone Worship Center, Accra
                   </div>
                 </div>
               </div>

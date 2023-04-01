@@ -1,5 +1,5 @@
 <template>
-  <div id="whoWeAre" class="whoWeAre p-10  center bg-white">
+  <div id="whoWeAre" class="whoWeAre p-10  center bg-w boderAroundT" style="">
     
       <div class="row">
         <div class="col-md-5 mx-auto">

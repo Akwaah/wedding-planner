@@ -10,11 +10,23 @@ body {
 }
 
 .container {
-  /* padding-left: 15rem;
-  padding-right: 15rem; */
-  /* padding: 0 25rem; */
-  /* width: 70rem; */
-}
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
 
 /* Neutrals */
 .N900 {
@@ -161,9 +173,11 @@ body {
 @media only screen and (min-width: 768px) {
   /* FONTSTYLES */
   .H900 {
-    font-weight: 700;
-    font-size: 1.074rem;
+    /* font-weight: 600; */
+    font-size: 4rem;
     line-height: 40px;
+    font-family: 'Alex Brush' !important;
+    color: #b13a1a !important;
   }
 
   .H800 {
@@ -194,6 +208,7 @@ body {
     font-weight: 700;
     font-size: 0.433rem;
     line-height: 16px;
+    
   }
 
   .H300 {
@@ -214,12 +229,14 @@ body {
     line-height: 12px;
     
   }
+
+
   .P400 {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 24px;
     font-family: 'Alex Brush' !important;
-    color: #b13a1a70 !important;
+    color: #b13a1a !important;
   }
   .P300 {
     font-weight: 400;
@@ -250,8 +267,8 @@ body {
 @media only screen and (min-width: 992px) {
   /* FONTSTYLES */
   .H900 {
-    font-weight: 700;
-    font-size: 0.574rem;
+    /* font-weight: 600; */
+    font-size: 5rem;
     line-height: 40px;
   }
 
@@ -337,8 +354,8 @@ body {
 @media only screen and (min-width: 1200px) {
   /* FONTSTYLES */
   .H900 {
-    font-weight: 700;
-    font-size: 2.074rem;
+    /* font-weight: 600; */
+    font-size: 4.074rem;
     line-height: 40px;
   }
 

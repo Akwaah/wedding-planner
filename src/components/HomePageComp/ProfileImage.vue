@@ -35,5 +35,6 @@ export default {
 .avatar {
     width: 15rem;
     height: 15rem;
+    border: 0.1rem solid #b13a1a;
   }
 </style>

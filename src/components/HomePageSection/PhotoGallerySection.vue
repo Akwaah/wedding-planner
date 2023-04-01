@@ -1,9 +1,9 @@
 <template>
-    <div class="container ">
+    <div class="container bg-transparent">
         
 
 <div class="gridywrap">
-  <div class="gridy-2 gridyhe-1">
+  <div class="gridy-2 gridyhe-1" style="border-width: 5px !important">
     <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
@@ -16,7 +16,7 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a> -->
     </div>
   </div>
-  <div class="gridy-1 gridyhe-1">
+  <div class="gridy-1 gridyhe-1" style="border-width: 5px !important">
     <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
@@ -29,7 +29,7 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a> -->
     </div>
   </div>
-  <div class="gridy-1 gridyhe-2">
+  <div class="gridy-1 gridyhe-2" style="border-width: 5px !important">
     <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
@@ -42,7 +42,7 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a> -->
     </div>
   </div>
-  <div class="gridy-2 gridyhe-1">
+  <div class="gridy-2 gridyhe-1" style="border-width: 5px !important">
     <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
@@ -55,7 +55,7 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a> -->
     </div>
   </div>
-  <div class="gridy-1 gridyhe-1">
+  <div class="gridy-1 gridyhe-1" style="border-width: 5px !important">
     <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203746/CG7A3045_tyk6jp.jpg); background-position: top center;">&nbsp;</div>
     <div class="gridinfo">
       <!-- <h3>Item Title</h3>
@@ -67,7 +67,7 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a> -->
     </div>
   </div>
-  <div class="gridy-1 gridyhe-1">
+  <div class="gridy-1 gridyhe-1" style="border-width: 5px !important">
     <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
@@ -112,7 +112,7 @@ export default {
   font-family: 'Open Sans', Arial, sans-serif;
 } */
 .gridywrap div[class*=gridy] {
-  background: #eee;
+  /* background: #eee; */
   box-shadow: inset 0 0 0 1px #ddd;
   padding: 15px; float: left;
   position: relative;

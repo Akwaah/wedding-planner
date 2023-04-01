@@ -1,6 +1,6 @@
 <template>
   <!-- <div> -->
-  <nav class="navbar sticky-top bg-light N400 P200">
+  <nav class="navbar sticky-top bgNav N400 P200 boderAroundB" style="">
     <div class="container-fluid">
       <a href="#imgBanner" rel="home" class="navbar-brand">
         <img
