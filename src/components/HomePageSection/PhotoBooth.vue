@@ -1,9 +1,9 @@
 <template>
-  <div id="gallery">
+  <div id="gallery ">
     <div class="text-center H900 N600 my-10">Gallery</div>
-    <div class="row">
-      <div class="column">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380204/IMG_20220219_132836_vq236t.jpg" @click="openModal(1)" class="hover-shadow rounded-xl">
+    <div class="row ">
+      <div class="column ">
+        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380204/IMG_20220219_132836_vq236t.jpg" @click="openModal(1)" class="hover-shadow rounded-xl ">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg" @click="openModal(2)" class="hover-shadow rounded-xl">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg" @click="openModal(3)" class="hover-shadow rounded-xl">
       </div>

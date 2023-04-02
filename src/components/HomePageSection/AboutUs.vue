@@ -4,9 +4,8 @@
 
           <div class="row  ">
             <div
-              class="col-md-6 col-lg-4  p-0 brideGroomImage "
-              
-            >
+              class="col-md-6 col-lg-4  p-0 brideGroomImage rounded-xl">
+            <div class="gridinfo rounded-xl"></div>
               <!-- <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-groom-540x405.jpg" alt="" srcset=""> -->
             </div>
             <div class="col-md-6 col-lg-8 my-auto p-10  ">
@@ -17,9 +16,8 @@
               
             </div>
             <div
-              class=" col-md-6 col-lg-4 p-0   imageCover"
-              
-            >
+              class=" col-md-6 col-lg-4 p-0   imageCover rounded-xl">
+              <div class="gridinfo rounded-xl"></div>
             <!-- <img class="" src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-bride-540x405.jpg" alt="" srcset=""> -->
             </div>
             <div class="col-md-6 my-auto p-10 py-10 d-block d-md-none">
@@ -66,7 +64,7 @@ export default {
 <style scoped>
 
 .brideGroomImage {
-  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680380045/IMG_20220430_131042_hcqczv.jpg);
+  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680459982/IMG_20220219_132754_2_wm3pfg.jpg);
     height: 50vh;
     background-position: top top;
     background-repeat: no-repeat;
@@ -77,7 +75,7 @@ export default {
 }
 
 .imageCover {
-  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203699/CG7A3050_tvdisn.jpg);
+  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680460921/IMG_20220219_132815_cyggtu.jpg);
     height: 50vh;
     background-position: top center;
     background-repeat: no-repeat;
