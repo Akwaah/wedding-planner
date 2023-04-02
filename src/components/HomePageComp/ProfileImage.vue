@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <img
-      class="avatar mx-auto rounded-circle"
+      class="avatar mx-auto rounded-circle borderColor"
       :src='whoarewe.photo'
       alt="Rounded avatar"
     />
@@ -32,9 +32,5 @@ export default {
 </script>
 
 <style scoped>
-.avatar {
-    width: 15rem;
-    height: 15rem;
-    border: 0.1rem solid #b13a1a;
-  }
+
 </style>

@@ -55,9 +55,9 @@ export default {
 <style scoped>
 
 .brideGroomImage {
-  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg);
+  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680380045/IMG_20220430_131042_hcqczv.jpg);
     height: 40vh;
-    background-position: top center;
+    background-position: top top;
     background-repeat: no-repeat;
     background-size: cover;
     border: 0.1rem solid #b13a1a;

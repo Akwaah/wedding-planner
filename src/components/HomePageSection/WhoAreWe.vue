@@ -4,15 +4,13 @@
       <div class="row">
         <div class="col-md-5 mx-auto">
           <ProfileImage :whoarewe="groom"/>
+          
         </div>
         <div class="col-md-2 py-xs-10 d-flex justify-content-center align-items-center">
-          <img
-            width="160"
-            height="100"
-            src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/intro-separator.png"
-            alt=""
-            loading="lazy"
-          />
+
+          <div class="H900" style="font-size: 8rem">
+            &
+          </div>
         </div>
         <div class="col-md-5">
           
@@ -38,7 +36,7 @@ export default {
       groom : {
           id: 1,
           name: "Jojo Abbiw",
-          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680212991/Jojo_Akwaah_Abbiw_nlfvff.jpg"
+          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680393641/WhatsApp_Image_2020-02-08_at_17.23.09_hnwvhz.jpg"
         },
        bride: {
           id: 2,

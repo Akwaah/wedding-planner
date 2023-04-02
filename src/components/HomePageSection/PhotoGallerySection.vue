@@ -1,5 +1,5 @@
 <template>
-    <div class="container bg-transparent">
+    <div class="container bg-white">
         
 
 <div class="gridywrap">

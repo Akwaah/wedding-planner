@@ -3,15 +3,32 @@
     <div class="bgColor" >
       <!-- banner Image -->
       <div class="overlay boderAroundT" style="">
-        <div id="imgBanner" class="imgBanner center mx-auto " style="">
+        <div id="imgBanner" class="imgBanne center mx-auto " style="">
           <div class="gridinfo"></div>
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner imgSlide ">
+    <div class="carousel-item active ">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100 h-75" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
           
         </div>
-        <img
-            src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/hero-logo.png"
+        <div class="H900 imgCenter text-white" style="color: white !important;">
+          #JojoGotBerta 2023
+        </div>
+        <!-- <img
+            src="https://res.cloudinary.com/akwaah/image/upload/v1680386040/hero-logo_r1j3vy.png"
             alt=""
             class="imgCenter"
-          />
+          /> -->
       </div>
 
       <!--Navbar  -->
@@ -24,7 +41,7 @@
 
       <!-- count down timer -->
       <div class="countdown center bgColor boderAroundB" style="">
-        <!-- <Countdown end="August 22, 2023"></Countdown> -->
+        <!-- <Countdown end="April 22, 2023"></Countdown> -->
       </div>
 
       <!-- about us -->
@@ -39,13 +56,6 @@
     </div>
       
 
-      <!-- map -->
-      <div id="map" class="map py-10 center bgColor2 boderAroundT">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.8364135748293!2d-0.32200338474948165!3d5.591178034848167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfa3ced6d60fb5%3A0x7ba525d2f6eebb8e!2sLinda%20Dor%20Restaurant%20(Main)!5e0!3m2!1sen!2sgh!4v1679568284737!5m2!1sen!2sgh" width="10000rem" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-      <!-- Gift Registry -->
-      <!-- <div class="giftRegistry py-10 borde center">Gift Registry</div> -->
 
       <!-- RSVP -->
       <div id="rsvp" class="rsvp py-10 center boderAroundB">
@@ -65,10 +75,12 @@
       <Quotes/>
     </div>
 
+    <photo-booth/>
+
       <!-- Photo Gallery -->
-      <div class="boderAroundB">
+      <!-- <div class="boderAroundB">
       <PhotoGallerySection/>
-    </div>
+    </div> -->
 
       <!-- Footer -->
       <!-- <FooterSection/> -->
@@ -87,6 +99,7 @@ import WhoAreWe from './HomePageSection/WhoAreWe.vue'
 import FooterSection from './HomePageSection/FooterSection.vue'
 import PhotoGallerySection from './HomePageSection/PhotoGallerySection.vue'
 import Countdown from 'vuejs-countdown'
+import PhotoBooth from './HomePageSection/PhotoBooth.vue'
 
 export default {
   name: 'WeddingHomePage',
@@ -95,7 +108,7 @@ export default {
   },
   mounted() {},
   methods: {},
-  components: { Countdown, Navbar, WhoAreWe, AboutUs, WhenAndWhere, MenAndMaids, Quotes, PhotoGallerySection, FooterSection }
+  components: { Countdown, Navbar, WhoAreWe, AboutUs, WhenAndWhere, MenAndMaids, Quotes, PhotoGallerySection, FooterSection, PhotoBooth }
 }
 </script>
 
@@ -172,21 +185,27 @@ export default {
     display: flex;
   }
   .imgBanner {
-    height: 100vh;
+    /* height: 100vh; */
     /* width: 100vw; */
     /* background-color: #d0edf530; */
-    background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg);
+    /* background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(1px);
+    filter: blur(1px); */
   /* -webkit-filter: blur(3px); */
+  
 
   }
+
+  .imgSlide {
+    height: 100vh;
+    background-size: contain;
+    filter: blur(3px);
+    -webkit-filter: blur(px);
+    /* background-attachment: fixed; */
+  }
   .overlay {
-    /* height: 100vh;
-  width: 100vw; */
-    background-color: aqua;
-    z-index: 2;
+  
   }
   .stickyNavbar {
     /* height: 7rem; */
