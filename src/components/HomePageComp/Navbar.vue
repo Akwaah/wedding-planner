@@ -1,43 +1,128 @@
-<template>
-  <!-- <div> -->
-  <nav class="navbar sticky-top bgNav N400 P200 boderAroundB" style="">
-    <div class="container-fluid">
-      <a href="#imgBanner" rel="home" class="navbar-brand">
-        <img
-          width="50"
-          height="50"
-          src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/header-logo.png"
-          alt="Jack &amp; Rose"
-          loading="lazy"
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link N700" href="#whoWeAre">Groom &amp; Bride</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link N700" href="#whenNwhere">When &amp; Where</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link N700" href="#map">Map</a>
-          </li>
-        </ul>
-        <a class="navbar-brand N700" href="#rsvp">RSVP</a>
-      </div>
-    </div>
-  </nav>
 
-  <!-- </div> -->
+
+<template>
+  <nav class=" navbar sticky-top">
+    <div class="container">
+    <div class="navbar-logo">
+      <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/header-logo.png" alt="Logo">
+    </div>
+    <button class="navbar-toggle" @click="toggleNav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="navbar-links " :class="{ 'active': isNavOpen }">
+      <ul>
+        <li class="N800"><a  href="#whoWeAre">Bride & Groom</a></li>
+        <li class="N800"><a href="#whenNwhere">When & Where</a></li>
+        <li class="N800"><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+
+    <div class="d-none d-md-block"></div>
+  </div>
+  </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isNavOpen: false
+    }
+  },
+  methods: {
+    toggleNav() {
+      this.isNavOpen = !this.isNavOpen;
+    }
+  }
+}
+</script>
+
+<style>
+a:hover {
+  color: #b13a1a !important;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #d0edf5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  position: relative;
+  background-color: #333;
+  border-radius: 3px;
+}
+
+.navbar-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar-links li {
+  margin: 0 1rem;
+}
+
+.navbar-links a {
+  /* color: #333; */
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    /* height: calc(100vh - 70); */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 5;
+  }
+
+  .navbar-links.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    margin: 1rem 0;
+  }
+}
+</style> 

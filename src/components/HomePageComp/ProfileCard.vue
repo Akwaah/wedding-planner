@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <div class="P400 N700 py-5">Jojo Abbiw</div>
-              <div class="P200 N600">
+              <div class="P200 N700">
                 Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
                 nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
                 sem quam semper libero, sit amet adipiscing sem neque sed ipsum.

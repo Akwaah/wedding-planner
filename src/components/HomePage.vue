@@ -7,28 +7,31 @@
           <div class="gridinfo"></div>
 
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner imgSlide ">
+  <div class="carousel-inner imgSlide">
     <div class="carousel-item active ">
-      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100 h-75" alt="...">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100" alt="...">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
 </div>
           
         </div>
-        <div class="H900 imgCenter text-white" style="color: white !important;">
+        <!-- <div class="H900 imgCenter text-white" style="color: white !important;">
           #JojoGotBerta 2023
-        </div>
-        <!-- <img
-            src="https://res.cloudinary.com/akwaah/image/upload/v1680386040/hero-logo_r1j3vy.png"
+        </div> -->
+        
+          <div class="gridinfo"></div>
+          <img
+            src="https://res.cloudinary.com/akwaah/image/upload/v1680442012/J_A1_ishqar.png"
             alt=""
             class="imgCenter"
-          /> -->
+            style="width:50vw"
+          />
       </div>
 
       <!--Navbar  -->
@@ -40,8 +43,9 @@
       <WhoAreWe />
 
       <!-- count down timer -->
-      <div class="countdown center bgColor boderAroundB" style="">
+      <div class="countdow cente bgColor boderAroundB" style="">
         <!-- <Countdown end="April 22, 2023"></Countdown> -->
+        <count-down-timer/>
       </div>
 
       <!-- about us -->
@@ -98,8 +102,8 @@ import WhenAndWhere from './HomePageSection/WhenAndWhere.vue'
 import WhoAreWe from './HomePageSection/WhoAreWe.vue'
 import FooterSection from './HomePageSection/FooterSection.vue'
 import PhotoGallerySection from './HomePageSection/PhotoGallerySection.vue'
-import Countdown from 'vuejs-countdown'
 import PhotoBooth from './HomePageSection/PhotoBooth.vue'
+import CountDownTimer from './HomePageSection/CountDownTimer.vue'
 
 export default {
   name: 'WeddingHomePage',
@@ -108,7 +112,7 @@ export default {
   },
   mounted() {},
   methods: {},
-  components: { Countdown, Navbar, WhoAreWe, AboutUs, WhenAndWhere, MenAndMaids, Quotes, PhotoGallerySection, FooterSection, PhotoBooth }
+  components: {  Navbar, WhoAreWe, AboutUs, WhenAndWhere, MenAndMaids, Quotes, PhotoGallerySection, FooterSection, PhotoBooth, CountDownTimer }
 }
 </script>
 
@@ -197,13 +201,7 @@ export default {
 
   }
 
-  .imgSlide {
-    height: 100vh;
-    background-size: contain;
-    filter: blur(3px);
-    -webkit-filter: blur(px);
-    /* background-attachment: fixed; */
-  }
+  
   .overlay {
   
   }

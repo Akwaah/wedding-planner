@@ -5,7 +5,7 @@
       :src='whoarewe.photo'
       alt="Rounded avatar"
     />
-    <div class="P300 N600 text-center mt-5">{{ whoarewe.name }}</div>
+    <div class="P300 N700 text-center mt-5">{{ whoarewe.name }}</div>
   </div>
 </template>
 

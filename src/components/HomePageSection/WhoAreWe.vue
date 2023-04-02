@@ -7,10 +7,19 @@
           
         </div>
         <div class="col-md-2 py-xs-10 d-flex justify-content-center align-items-center">
+          <img
+            width="320"
+            height="200"
+            src="https://res.cloudinary.com/akwaah/image/upload/v1680436118/Untitled-1_mzqug3.png"
+            alt=""
+            loading="lazy"
+          />
+          
 
-          <div class="H900" style="font-size: 8rem">
+          <!-- <div class="H900 " style="font-size: 8rem; width:160;
+            height:100;">
             &
-          </div>
+          </div> -->
         </div>
         <div class="col-md-5">
           
@@ -18,8 +27,8 @@
         </div>
  
       <div class="text-center mt-5">
-        <p class="P400 N600" style="font-family: Alex Brush">Are getting married</p>
-        <div class="P300 N600 mt-5">on 22 April, 2023 - Accra, Madina</div>
+        <p class="P400 N700" style="font-family: Alex Brush">Are getting married</p>
+        <div class="P300 N700 mt-5">on 22 April, 2023 - Accra, Madina</div>
       </div>
     </div>
   </div>

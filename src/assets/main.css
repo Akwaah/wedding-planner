@@ -177,14 +177,111 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .imgSlide {
+    /* height: 100vh; */
+    background-size: contain;
+    filter: blur(3px);
+    -webkit-filter: blur(px);
+    /* background-attachment: fixed; */
+  }
+  .H900 {
+    /* font-weight: 600; */
+    font-size: 2.5rem;
+    line-height: 40px;
+    font-family: 'Alex Brush' !important;
+    color: #b13a1a !important;
+  }
+
+  .P400 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 24px;
+    font-family: 'Alex Brush' !important;
+    color: #b13a1a !important;
+  }
+  .P300 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .P250 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .P200 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .P100 {
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .imgSlide {
+    /* height: 100vh; */
+    background-size: contain;
+    filter: blur(3px);
+    -webkit-filter: blur(px);
+    /* background-attachment: fixed; */
+  }
+  .H900 {
+    /* font-weight: 600; */
+    font-size: 2.5rem;
+    line-height: 40px;
+    font-family: 'Alex Brush' !important;
+    color: #b13a1a !important;
+  }
+
+  .P400 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 24px;
+    font-family: 'Alex Brush' !important;
+    color: #b13a1a !important;
+  }
+  .P300 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .P250 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .P200 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .P100 {
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) { */
+@media only screen and (min-width: 768px) {
+  .imgSlide {
+    /* height: 100vh; */
+    background-size: contain;
+    filter: blur(3px);
+    -webkit-filter: blur(px);
+    /* background-attachment: fixed; */
+  }
   /* FONTSTYLES */
   .H900 {
     /* font-weight: 600; */
@@ -193,57 +290,6 @@ body {
     font-family: 'Alex Brush' !important;
     color: #b13a1a !important;
   }
-
-  .H800 {
-    font-weight: 700;
-    font-size: 0.828rem;
-    line-height: 32px;
-  }
-
-  .H700 {
-    font-weight: 700;
-    font-size: 0.744rem;
-    line-height: 28px;
-  }
-
-  .H600 {
-    font-weight: 700;
-    font-size: 0.6rem;
-    line-height: 24px;
-  }
-
-  .H500 {
-    font-weight: 700;
-    font-size: 0.5rem;
-    line-height: 24px;
-  }
-
-  .H400 {
-    font-weight: 700;
-    font-size: 0.433rem;
-    line-height: 16px;
-    
-  }
-
-  .H300 {
-    font-weight: 700;
-    font-size: 0.394rem;
-    line-height: 12px;
-  }
-
-  .H200 {
-    font-weight: 700;
-    font-size: 0.394rem;
-    line-height: 12px;
-  }
-
-  .H100 {
-    font-weight: 700;
-    font-size: 0.379rem;
-    line-height: 12px;
-    
-  }
-
 
   .P400 {
     font-weight: 400;
@@ -275,10 +321,18 @@ body {
     font-size: 0.833rem;
     line-height: 16px;
   }
-/* } */
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .imgSlide {
+    height: 100vh;
+    background-size: contain;
+    filter: blur(3px);
+    -webkit-filter: blur(px);
+    /* background-attachment: fixed; */
+
+  }
   /* FONTSTYLES */
   .H900 {
     /* font-weight: 600; */
@@ -286,53 +340,6 @@ body {
     line-height: 40px;
   }
 
-  .H800 {
-    font-weight: 700;
-    font-size: 0.928rem;
-    line-height: 32px;
-  }
-
-  .H700 {
-    font-weight: 700;
-    font-size: 0.744rem;
-    line-height: 28px;
-  }
-
-  .H600 {
-    font-weight: 700;
-    font-size: 0.6rem;
-    line-height: 24px;
-  }
-
-  .H500 {
-    font-weight: 700;
-    font-size: 0.5rem;
-    line-height: 24px;
-  }
-
-  .H400 {
-    font-weight: 700;
-    font-size: 0.433rem;
-    line-height: 16px;
-  }
-
-  .H300 {
-    font-weight: 700;
-    font-size: 0.394rem;
-    line-height: 12px;
-  }
-
-  .H200 {
-    font-weight: 700;
-    font-size: 0.394rem;
-    line-height: 12px;
-  }
-
-  .H100 {
-    font-weight: 700;
-    font-size: 0.379rem;
-    line-height: 12px;
-  }
   .P400 {
     font-weight: 400;
     font-size: 1.5rem;
@@ -366,6 +373,13 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .imgSlide {
+    height: 100vh;
+    background-size: contain;
+    filter: blur(3px);
+    -webkit-filter: blur(px);
+    /* background-attachment: fixed; */
+  }
   /* FONTSTYLES */
   .H900 {
     /* font-weight: 600; */
@@ -373,53 +387,7 @@ body {
     line-height: 40px;
   }
 
-  .H800 {
-    font-weight: 700;
-    font-size: 1.728rem;
-    line-height: 32px;
-  }
-
-  .H700 {
-    font-weight: 700;
-    font-size: 1.44rem;
-    line-height: 28px;
-  }
-
-  .H600 {
-    font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 24px;
-  }
-
-  .H500 {
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 24px;
-  }
-
-  .H400 {
-    font-weight: 700;
-    font-size: 0.833rem;
-    line-height: 16px;
-  }
-
-  .H300 {
-    font-weight: 700;
-    font-size: 0.694rem;
-    line-height: 12px;
-  }
-
-  .H200 {
-    font-weight: 700;
-    font-size: 0.694rem;
-    line-height: 12px;
-  }
-
-  .H100 {
-    font-weight: 700;
-    font-size: 0.579rem;
-    line-height: 12px;
-  }
+  
   .P400 {
     font-weight: 400;
     font-size: 2.5rem;
