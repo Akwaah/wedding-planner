@@ -6,15 +6,15 @@
           <div class="timer-value">{{ days }}</div>
           <div class="timer-label">Days</div>
         </div>
-        <div class="timer-item mx-lg-10 mx-md-5">
+        <div class="timer-item mx-lg-10 mx-5">
           <div class="timer-value">{{ hours }}</div>
           <div class="timer-label">Hours</div>
         </div>
-        <div class="timer-item mx-lg-10 mx-md-5">
+        <div class="timer-item mx-lg-10 mx-5">
           <div class="timer-value">{{ minutes }}</div>
           <div class="timer-label">Minutes</div>
         </div>
-        <div class="timer-item mx-lg-10 mx-md-5">
+        <div class="timer-item mx-lg-10 mx-5">
           <div class="timer-value">{{ seconds }}</div>
           <div class="timer-label">Seconds</div>
         </div>

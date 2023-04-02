@@ -4,7 +4,7 @@
   <nav class=" navbar sticky-top">
     <div class="container">
     <div class="navbar-logo">
-      <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/header-logo.png" alt="Logo">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680452622/JA_mayasx.png" alt="Logo">
     </div>
     <button class="navbar-toggle" @click="toggleNav">
       <span></span>
@@ -13,9 +13,9 @@
     </button>
     <div class="navbar-links " :class="{ 'active': isNavOpen }">
       <ul>
-        <li class="N800"><a  href="#whoWeAre">Bride & Groom</a></li>
-        <li class="N800"><a href="#whenNwhere">When & Where</a></li>
-        <li class="N800"><a href="#gallery">Gallery</a></li>
+        <li class="N900"><a  href="#whoWeAre">Bride & Groom</a></li>
+        <li class="N900"><a href="#whenNwhere">When & Where</a></li>
+        <li class="N900"><a href="#gallery">Gallery</a></li>
       </ul>
     </div>
 
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .navbar-logo img {
-  width: 50px;
+  width: 70px;
   height: 50px;
 }
 

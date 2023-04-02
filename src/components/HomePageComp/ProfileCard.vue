@@ -1,12 +1,10 @@
 <template>
     <div class="">
-        <div class="P400 N700 py-5">Jojo Abbiw</div>
-              <div class="P200 N700">
-                Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-                nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
-                sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+        <div class="P400 N900 py-5 " >{{aboutUs.name}}</div>
+              <div class="P200 N900  " >
+                {{ aboutUs.content }}
               </div>
-        <div>
+        <div class="" >
             <!-- <img src="../../assets/2950180.png" alt="" srcset=""> -->
             <Dove/>
         </div>
@@ -17,6 +15,14 @@
 import Dove from '../icons/dove.vue';
 
 export default {
+  props: {
+    aboutUs: {
+        name: String,
+        content: String,
+        cssClassContent: String,
+        cssClassImage: String
+    }
+  },
     name: "ProfileCard",
     data() {
         return {};

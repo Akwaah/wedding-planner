@@ -90,6 +90,11 @@ body {
 .N0 {
   color: #ffffff;
 }
+.H300 {
+  font-weight: 700;
+  font-size: 1.694rem;
+  line-height: 60px;
+}
 
 /* FONTSTYLES */
 /* .H900 {

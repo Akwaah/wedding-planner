@@ -10,10 +10,10 @@
               <!-- <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-groom-540x405.jpg" alt="" srcset=""> -->
             </div>
             <div class="col-md-6 col-lg-8 my-auto p-10  ">
-              <ProfileCard/>
+              <ProfileCard :aboutUs="groom"/>
             </div>
             <div class="col-md-6 col-lg-8  my-auto p-10 py-10 d-none d-md-block ">
-                <ProfileCard/>
+                <ProfileCard :aboutUs="bride"/>
               
             </div>
             <div
@@ -23,7 +23,7 @@
             <!-- <img class="" src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-bride-540x405.jpg" alt="" srcset=""> -->
             </div>
             <div class="col-md-6 my-auto p-10 py-10 d-block d-md-none">
-                <ProfileCard/>
+                <ProfileCard :aboutUs="bride"/>
               
             </div>
           </div>
@@ -38,7 +38,18 @@ export default {
 
     data() {
         return {
-            
+            groom: {
+              name: "Jojo Abbiw",
+            content: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+            cssClassContent: "",
+            cssClassImage: "float-start"
+            },
+            bride: {
+              name: "Alberta Opoku-Mensah",
+            content: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+            cssClassContent: "text-end",
+            cssClassImage: "float-end"
+            },
         };
     },
 
@@ -56,7 +67,7 @@ export default {
 
 .brideGroomImage {
   background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680380045/IMG_20220430_131042_hcqczv.jpg);
-    height: 40vh;
+    height: 50vh;
     background-position: top top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +78,7 @@ export default {
 
 .imageCover {
   background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203699/CG7A3050_tvdisn.jpg);
-    height: 40vh;
+    height: 50vh;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;

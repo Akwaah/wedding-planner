@@ -27,8 +27,8 @@
         </div>
  
       <div class="text-center mt-5">
-        <p class="P400 N700" style="font-family: Alex Brush">Are getting married</p>
-        <div class="P300 N700 mt-5">on 22 April, 2023 - Accra, Madina</div>
+        <p class="P400 N900" style="font-family: Alex Brush">Are getting married</p>
+        <div class="P300 N900 mt-5">on 22 April, 2023 - Accra, Madina</div>
       </div>
     </div>
   </div>
