@@ -45,12 +45,12 @@ export default {
       groom : {
           id: 1,
           name: "Jojo Abbiw",
-          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680459347/20180930_095030_2_jxfvxt.jpg"
+          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680557683/_MG_5608_a7wccw.jpg"
         },
        bride: {
           id: 2,
           name: "Alberta Opoku-Mensah",
-          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680459389/IMG_8603_wsdjcd.jpg"
+          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680553608/IMG_8603_crcce5.jpg"
         }
       
     }

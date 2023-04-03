@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "danger": $danger,
+        "info": $indigo,
+        "dark": $light,
+        "light": $light,
+    );
+
+:root {
+  color-scheme: light; /* both supported */
+}
+
 body {
   font-family: Georgia, Times, 'Times New Roman', serif !important;
   /* overflow-x: hidden; */

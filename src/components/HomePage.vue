@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="bgColor" >
+  <div >
+    <div class="bgColor" data-bs-theme="light">
       <!-- banner Image -->
       <div class="overlay boderAroundT" style="">
         <div id="imgBanner" class="imgBanne center mx-auto " style="">
@@ -12,10 +12,16 @@
       <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg" class="d-block w-100" alt="...">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552215/HJ5A7746_kddwh8.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
 </div>
@@ -88,7 +94,10 @@
 
       <!-- Footer -->
       <!-- <FooterSection/> -->
-      
+      <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
     </div>
   </div>
 </template>
@@ -120,7 +129,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 .bgColor {
-  background-color: #d0edf560;
+  background-color: #ecfbff;
 }
 
 .bgNav {

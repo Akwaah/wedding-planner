@@ -19,7 +19,7 @@ import HomePage from './components/HomePage.vue'
   </header>
 
   <RouterView /> -->
-  <div>
+  <div data-bs-theme="light">
     <HomePage />
   </div>
 </template>
