@@ -44,7 +44,7 @@ export default {
     return {
       groom : {
           id: 1,
-          name: "Jojo Abbiw",
+          name: "Jojo Akwaah Abbiw",
           photo: "https://res.cloudinary.com/akwaah/image/upload/v1680557683/_MG_5608_a7wccw.jpg"
         },
        bride: {
