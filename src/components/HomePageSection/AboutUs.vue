@@ -38,9 +38,9 @@ export default {
         return {
             groom: {
               name: "Jojo Abbiw",
-            content: "Jojo possesses a tranquil demeanor, coupled with remarkable patience, kindness, and a good sense of humor. Interestingly, fate brought him together with his wife-to-be on a night when there was a power outage 'Dumsor' on Legon campus, a situation that ultimately turned out to be a stroke of luck for him. In short, 'Dumsor' did him good 😂😂. ",
-            cssClassContent: "text-end",
-            cssClassImage: "float-end"
+            content: "Jojo possesses a tranquil demeanor, coupled with remarkable patience, kindness, and a good sense of humor. Interestingly, fate brought him together with his wife-to-be on a night when there was a power outage 'Dumsor' on Legon campus, a situation that ultimately turned out to be a stroke of luck for him. In short, 'Dumsor' did him good 😂. ",
+            cssClassContent: "text-lg-end",
+            cssClassImage: "float-lg-end"
             },
             bride: {
               name: "Alberta Opoku-Mensah",

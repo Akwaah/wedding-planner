@@ -49,7 +49,7 @@ a:hover {
   align-items: center;
   padding: 1rem;
   background-color: #d0edf5;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 5px #b13a1a10;
 }
 
 .navbar-logo img {

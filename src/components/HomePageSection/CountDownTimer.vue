@@ -3,20 +3,20 @@
       <!-- <h2>Countdown to April 22nd, 2023</h2> -->
       <div class="timer">
         <div class="timer-item mx-lg-10 mx-5">
-          <div class="timer-value">{{ days }}</div>
-          <div class="timer-label">Days</div>
+          <div class="timer-value N900">{{ days }}</div>
+          <div class="timer-label N900">Days</div>
         </div>
         <div class="timer-item mx-lg-10 mx-5">
-          <div class="timer-value">{{ hours }}</div>
-          <div class="timer-label">Hours</div>
+          <div class="timer-value N900">{{ hours }}</div>
+          <div class="timer-label N900">Hours</div>
         </div>
         <div class="timer-item mx-lg-10 mx-5">
-          <div class="timer-value">{{ minutes }}</div>
-          <div class="timer-label">Minutes</div>
+          <div class="timer-value N900">{{ minutes }}</div>
+          <div class="timer-label N900">Minutes</div>
         </div>
         <div class="timer-item mx-lg-10 mx-5">
-          <div class="timer-value">{{ seconds }}</div>
-          <div class="timer-label">Seconds</div>
+          <div class="timer-value N900">{{ seconds }}</div>
+          <div class="timer-label N900">Seconds</div>
         </div>
       </div>
     </div>
