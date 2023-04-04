@@ -21,7 +21,7 @@
       </div>
       <div class="column">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg" @click="openModal(11)" class="hover-shadow rounded-xl">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" @click="openModal(12)" class="hover-shadow rounded-xl">
+        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680645908/HJ5A7750_eswedq.jpg" @click="openModal(12)" class="hover-shadow rounded-xl">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380165/IMG_20220219_121336_pp0xmv.jpg" @click="openModal(13)" class="hover-shadow rounded-xl">
       </div>
      
@@ -79,7 +79,7 @@ export default {
         { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380196/IMG_20220430_131627_nduefu.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" },
 
         { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
+        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680645908/HJ5A7750_eswedq.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
         { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380165/IMG_20220219_121336_pp0xmv.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" }
 
       ]
