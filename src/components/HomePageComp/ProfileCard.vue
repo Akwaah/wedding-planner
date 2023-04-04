@@ -1,10 +1,10 @@
 <template>
     <div class="">
-        <div class="P400 N900 py-5 " >{{aboutUs.name}}</div>
-              <div class="P200 N900  " >
+        <div class="P400 N900 py-5 " :class="aboutUs.cssClassContent" >{{aboutUs.name}}</div>
+              <div class="P200 N900  " :class="aboutUs.cssClassContent">
                 {{ aboutUs.content }}
               </div>
-        <div class="" >
+        <div class="" :class="aboutUs.cssClassImage" >
             <!-- <img src="../../assets/2950180.png" alt="" srcset=""> -->
             <Dove/>
         </div>

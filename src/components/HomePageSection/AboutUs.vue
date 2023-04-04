@@ -38,15 +38,15 @@ export default {
         return {
             groom: {
               name: "Jojo Abbiw",
-            content: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
-            cssClassContent: "",
-            cssClassImage: "float-start"
+            content: "Jojo possesses a tranquil demeanor, coupled with remarkable patience, kindness, and a good sense of humor. Interestingly, fate brought him together with his wife-to-be on a night when there was a power outage 'Dumsor' on Legon campus, a situation that ultimately turned out to be a stroke of luck for him. In short, 'Dumsor' did him good 😂😂. ",
+            cssClassContent: "text-end",
+            cssClassImage: "float-end"
             },
             bride: {
               name: "Alberta Opoku-Mensah",
-            content: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
-            cssClassContent: "text-end",
-            cssClassImage: "float-end"
+            content: "Alberta is a warm and sociable individual who exudes kindness and empathy. Fate brought her together with her spouse-to-be on a fateful night when she had to resort to using PENSA Legon's generator to heat her soup due to a power outage in her hostel. Over the course of the past six years, they have nurtured their relationship and now wish to formalize their commitment to each other through marriage.",
+            cssClassContent: "text-start",
+            cssClassImage: ""
             },
         };
     },

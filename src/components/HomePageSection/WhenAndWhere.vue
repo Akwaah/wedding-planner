@@ -69,7 +69,7 @@
       <!-- map -->
       <div id="map" class="map  center bgColor boderAroundT">
             <iframe v-if="this.showEngagementLoc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.8364135748293!2d-0.32200338474948165!3d5.591178034848167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfa3ced6d60fb5%3A0x7ba525d2f6eebb8e!2sLinda%20Dor%20Restaurant%20(Main)!5e0!3m2!1sen!2sgh!4v1679568284737!5m2!1sen!2sgh" width="10000rem" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe v-if="this.showWeddingLoc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4721.509825572922!2d-0.17386632678151348!3d5.669592562469282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ceb83c0bed1%3A0x887f679889627d5b!2sThe%20Church%20Of%20Pentecost%2C%20Firestone%20Worship%20Centre!5e0!3m2!1sen!2sgh!4v1680373067390!5m2!1sen!2sgh" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe v-if="true" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4721.509825572922!2d-0.17386632678151348!3d5.669592562469282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ceb83c0bed1%3A0x887f679889627d5b!2sThe%20Church%20Of%20Pentecost%2C%20Firestone%20Worship%20Centre!5e0!3m2!1sen!2sgh!4v1680373067390!5m2!1sen!2sgh" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </template>
