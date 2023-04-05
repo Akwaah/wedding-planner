@@ -6,12 +6,12 @@
             <div
               class="col-md-6 col-lg-4  p-0 brideGroomImage rounded-xl">
             <div class="gridinfo rounded-xl"></div>
-              <!-- <img src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-groom-540x405.jpg" alt="" srcset=""> -->
+              
             </div>
             <div class="col-md-6 col-lg-8 my-auto p-10  ">
               <ProfileCard :aboutUs="groom"/>
             </div>
-            <div class="col-md-6 col-lg-8  my-auto p-10 py-10 d-none d-md-block ">
+            <div class="col-md-6 col-lg-8  my-auto p-10  d-none d-md-block ">
                 <ProfileCard :aboutUs="bride"/>
               
             </div>
@@ -20,7 +20,7 @@
               <div class="gridinfo rounded-xl"></div>
             <!-- <img class="" src="https://demo.singlestroke.io/jackrose/wp-content/uploads/2015/11/about-bride-540x405.jpg" alt="" srcset=""> -->
             </div>
-            <div class="col-md-6 my-auto p-10 py-10 d-block d-md-none">
+            <div class="col-md-6 my-auto p-10 d-block d-md-none">
                 <ProfileCard :aboutUs="bride"/>
               
             </div>

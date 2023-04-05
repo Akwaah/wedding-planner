@@ -1,7 +1,7 @@
 <template>
   <div id="gallery ">
     <div class="text-center H900 N600 my-10">Gallery</div>
-    <div class="row ">
+    <div class="row cursor-pointer ">
       <div class="column ">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380204/IMG_20220219_132836_vq236t.jpg" @click="openModal(1)" class="hover-shadow rounded-xl ">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552214/HJ5A7718_erko2v.jpg" @click="openModal(2)" class="hover-shadow rounded-xl">

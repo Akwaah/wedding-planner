@@ -30,7 +30,7 @@
                   <div class="P200 N900 py-2 text-capitalize" style="color: #b13a1a">
                     0542163503
                   </div>
-                  <button v-if="false" @click="setWeddingLoc(false, true)" type="button" class="btn bgColor2 borderColor py-2 text-capitalize" style="color: #b13a1a">See Map</button>
+                  <a   href="https://goo.gl/maps/TwS9T9qQmsd1U7Hm7" target="_blank" type="button" class="btn bgColor2 borderColor py-2 text-capitalize" style="color: #b13a1a">View map</a>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@
                   <div class="P200 N900 py-2 text-capitalize" style="color: #b13a1a">
                     055353241/ 0246297177
                   </div>
-                  <button v-if="false" @click="setWeddingLoc(true, false)" type="button" class="btn bgColor2 borderColor py-2 text-capitalize" style="color: #b13a1a">See Map</button>
+                  <a  href="https://goo.gl/maps/VhqwWERSnkwB8iCV9" target="_blank" type="button" class="btn bgColor2 borderColor py-2 text-capitalize" style="color: #b13a1a">View map</a>
                 </div>
               </div>
               
