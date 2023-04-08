@@ -37,14 +37,14 @@ export default {
     data() {
         return {
             groom: {
-              name: "Jojo Abbiw",
-            content: "Jojo possesses a tranquil demeanor, coupled with remarkable patience, kindness, and a good sense of humor. Interestingly, fate brought him together with his wife-to-be on a night when there was a power outage 'Dumsor' on Legon campus, a situation that ultimately turned out to be a stroke of luck for him. In short, 'Dumsor' did him good 😂. ",
+              name: "William Selassie Adu",
+            content: "Selassie is passionate about creating meaningful connections with people. He loves to explore, and share his experiences with others. With a keen eye for detail, Selassie takes pleasure in finding the beauty in the ordinary and transforming it into something extraordinary. On his wedding day, he is eager to celebrate love with his partner and share his joy with his loved ones.",
             cssClassContent: "text-lg-end",
             cssClassImage: "float-lg-end"
             },
             bride: {
-              name: "Alberta Opoku-Mensah",
-            content: "Alberta is a warm and sociable individual who exudes kindness and empathy. Fate brought her together with her spouse-to-be on a fateful night when she had to resort to using PENSA Legon's generator to heat her soup due to a power outage in her hostel. Over the course of the past six years, they have nurtured their relationship and now wish to formalize their commitment to each other through marriage.",
+              name: "Justine Delali Ama Diaba",
+            content: "Delali is a beautiful soul who radiates joy wherever she goes. She has a heart of gold and a smile that can light up any room. Her love for life and adventure is contagious, and she is always up for trying something new. As she prepares to tie the knot, Delali is excited to start a new chapter with the love of her life 'Selassie' and create beautiful memories together.",
             cssClassContent: "text-start",
             cssClassImage: ""
             },
@@ -64,7 +64,7 @@ export default {
 <style scoped>
 
 .brideGroomImage {
-  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680553609/IMG_20220219_132754_2_jptrld.jpg);
+  background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680936709/photos/WhatsApp_Image_2023-04-05_at_7.16.00_PM_nzmehp.jpg);
     height: 50vh;
     background-position: top top;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ export default {
 }
 
 .imageCover {
-  background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680460921/IMG_20220219_132815_cyggtu.jpg);
+  background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/42631820_1066865700160854_8635461704899100672_n_ntkaxv.jpg);
     height: 50vh;
     background-position: top center;
     background-repeat: no-repeat;

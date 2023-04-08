@@ -3,17 +3,17 @@
     <div class="text-center H900 N600 my-10">Gallery</div>
     <div class="row ">
       <div class="column ">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380204/IMG_20220219_132836_vq236t.jpg" @click="openModal(1)" class="hover-shadow rounded-xl ">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552214/HJ5A7718_erko2v.jpg" @click="openModal(2)" class="hover-shadow rounded-xl">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg" @click="openModal(3)" class="hover-shadow rounded-xl">
+        <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680935528/photos/WhatsApp_Image_2023-04-05_at_7.11.06_PM_uv12ge.jpg" @click="openModal(1)" class="hover-shadow rounded-xl ">
+        <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680935529/photos/WhatsApp_Image_2023-04-05_at_7.11.50_PM_p1zr1y.jpg" @click="openModal(2)" class="hover-shadow rounded-xl">
+        <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg" @click="openModal(3)" class="hover-shadow rounded-xl">
       </div>
       <div class="column">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552215/HJ5A7746_kddwh8.jpg" @click="openModal(4)" class="hover-shadow rounded-xl">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380217/IMG_20220430_121528_b10suq.jpg" @click="openModal(5)" class="hover-shadow rounded-xl">
-        <img src="https://res.cloudinary.com/akwaah/image/upload/v1680378377/IMG_20220219_124010_ibtdcs.jpg" @click="openModal(6)" class="hover-shadow rounded-xl">
+        <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg" @click="openModal(4)" class="hover-shadow rounded-xl">
+        <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680935534/photos/WhatsApp_Image_2023-04-05_at_8.27.45_PM_bn3pzy.jpg" @click="openModal(5)" class="hover-shadow rounded-xl">
+        <!-- <img src="https://res.cloudinary.com/akwaah/image/upload/v1680378377/IMG_20220219_124010_ibtdcs.jpg" @click="openModal(6)" class="hover-shadow rounded-xl"> -->
         
       </div>
-      <div class="column">
+      <!-- <div class="column">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380069/IMG_20220430_131109_1_fh6hqp.jpg" @click="openModal(7)" class="hover-shadow rounded-xl">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552211/HJ5A7709_nqqagu.jpg" @click="openModal(8)" class="hover-shadow rounded-xl">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380208/IMG_20220219_133542_1_x5b2ds.jpg" @click="openModal(9)" class="hover-shadow rounded-xl">
@@ -23,7 +23,7 @@
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg" @click="openModal(11)" class="hover-shadow rounded-xl">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680645908/HJ5A7750_eswedq.jpg" @click="openModal(12)" class="hover-shadow rounded-xl">
         <img src="https://res.cloudinary.com/akwaah/image/upload/v1680380165/IMG_20220219_121336_pp0xmv.jpg" @click="openModal(13)" class="hover-shadow rounded-xl">
-      </div>
+      </div> -->
      
     </div>
 
@@ -65,22 +65,22 @@ export default {
       showModal: false,
       currentSlideIndex: 0,
       images: [
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380204/IMG_20220219_132836_vq236t.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg", alt: "Nature" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552214/HJ5A7718_erko2v.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
+        { src: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935528/photos/WhatsApp_Image_2023-04-05_at_7.11.06_PM_uv12ge.jpg", wideSrc: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg", alt: "Nature" },
+        { src: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935529/photos/WhatsApp_Image_2023-04-05_at_7.11.50_PM_p1zr1y.jpg", wideSrc: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg", alt: "Snow" },
+        { src: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg", wideSrc: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg", alt: "Mountains" },
         
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552215/HJ5A7746_kddwh8.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380217/IMG_20220430_121528_b10suq.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680378377/IMG_20220219_124010_ibtdcs.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
+        { src: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg", wideSrc: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_7.37.48_PM_xx5ia1.jpg", alt: "Lights" },
+        { src: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935534/photos/WhatsApp_Image_2023-04-05_at_8.27.45_PM_bn3pzy.jpg", wideSrc: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680935534/photos/WhatsApp_Image_2023-04-05_at_8.27.45_PM_bn3pzy.jpg", alt: "Snow" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680378377/IMG_20220219_124010_ibtdcs.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
         
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380069/IMG_20220430_131109_1_fh6hqp.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552211/HJ5A7709_nqqagu.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380208/IMG_20220219_133542_1_x5b2ds.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380196/IMG_20220430_131627_nduefu.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380069/IMG_20220430_131109_1_fh6hqp.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552211/HJ5A7709_nqqagu.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380208/IMG_20220219_133542_1_x5b2ds.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380196/IMG_20220430_131627_nduefu.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" },
 
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680645908/HJ5A7750_eswedq.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
-        { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380165/IMG_20220219_121336_pp0xmv.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" }
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203748/CG7A3054_njkkvb.jpg", alt: "Snow" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680645908/HJ5A7750_eswedq.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg", alt: "Mountains" },
+        // { src: "https://res.cloudinary.com/akwaah/image/upload/v1680380165/IMG_20220219_121336_pp0xmv.jpg", wideSrc: "https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg", alt: "Lights" }
 
       ]
     };

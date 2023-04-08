@@ -4,7 +4,7 @@
 
 <div class="gridywrap">
   <div class="gridy-2 gridyhe-1" style="border-width: 5px !important">
-    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg); background-position: top center;">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_8.31.25_PM_zatrld.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
       <!-- <h3>Item Title</h3>
@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="gridy-1 gridyhe-1" style="border-width: 5px !important">
-    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg); background-position: top center;">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_8.31.25_PM_zatrld.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
       <!-- <h3>Item Title</h3>
@@ -30,7 +30,7 @@
     </div>
   </div>
   <div class="gridy-1 gridyhe-2" style="border-width: 5px !important">
-    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg); background-position: top center;">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_8.31.25_PM_zatrld.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
       <!-- <h3>Item Title</h3>
@@ -43,7 +43,7 @@
     </div>
   </div>
   <div class="gridy-2 gridyhe-1" style="border-width: 5px !important">
-    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg); background-position: top center;">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_8.31.25_PM_zatrld.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
       <!-- <h3>Item Title</h3>
@@ -68,7 +68,7 @@
     </div>
   </div>
   <div class="gridy-1 gridyhe-1" style="border-width: 5px !important">
-    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg); background-position: top center;">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://res.cloudinary.com/dcyay2pow/image/upload/v1680935533/photos/WhatsApp_Image_2023-04-05_at_8.31.25_PM_zatrld.jpg); background-position: top center;">&nbsp;</div>
     
     <div class="gridinfo">
       <!-- <h3>Item Title</h3>

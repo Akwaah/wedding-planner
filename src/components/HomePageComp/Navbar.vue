@@ -4,7 +4,7 @@
   <nav class=" navbar sticky-top">
     <div class="container">
     <div class="navbar-logo">
-      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680452622/JA_mayasx.png" alt="Logo">
+      <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680952005/favicon_a7l8ic.png" alt="Logo">
     </div>
     <button class="navbar-toggle" @click="toggleNav">
       <span></span>

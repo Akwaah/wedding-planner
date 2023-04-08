@@ -7,22 +7,22 @@
           <div class="gridinfo"></div>
 
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner imgSlide">
+  <div class="bgCool">
     <div class="carousel-item active ">
-      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203721/CG7A3085_v2kbeh.jpg" class="d-block w-100" alt="...">
+      <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680954554/Brown_Modern_2_gjkpe0.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552215/HJ5A7746_kddwh8.jpg" class="d-block w-100" alt="...">
+      <img src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680954384/Brown_Modern_Thank_You_Banner_Landscape_1_l1fdto.png" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203747/CG7A3084_ihsozw.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
+    </div> -->
+    <!-- <div class="carousel-item">
       <img src="https://res.cloudinary.com/akwaah/image/upload/v1680203755/CG7A3061_bvof1m.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
+    </div> -->
+    <!-- <div class="carousel-item">
       <img src="https://res.cloudinary.com/akwaah/image/upload/v1680552203/HJ5A7706_spawij.jpg" class="d-block w-100" alt="...">
-    </div>
+    </div> -->
   </div>
 </div>
           
@@ -33,7 +33,7 @@
         
           <div class="gridinfo"></div>
           <img
-            src="https://res.cloudinary.com/akwaah/image/upload/v1680442012/J_A1_ishqar.png"
+            src="https://res.cloudinary.com/dcyay2pow/image/upload/v1680951719/Floral_Wreath_Wedding_Monogram_Circle_Sticker_e2nqww.png"
             alt=""
             class="imgCenter"
             style="width:50vw"
@@ -214,6 +214,12 @@ export default {
   .overlay {
   
   }
+
+  .bgCool {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
   .stickyNavbar {
     /* height: 7rem; */
     /* background-color: grey; */

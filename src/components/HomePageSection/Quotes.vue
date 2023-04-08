@@ -1,7 +1,7 @@
 <template>
     <div class="quotes center ">
         <div class="H300 N100 container text-center">
-            A man's got two shots for jewelry: a wedding ring and a watch. The watch is a lot easier to get on and off than a wedding ring.
+            Getting married is like putting together a puzzle: it takes time, patience, and a little bit of teamwork, but the end result is a beautiful masterpiece.
         </div>
     </div>
 </template>

@@ -28,7 +28,7 @@
  
       <div class="text-center mt-5">
         <p class="P400 N900" style="font-family: Alex Brush">Are getting married</p>
-        <div class="P300 N900 mt-5">on 22 April, 2023 - Accra, Madina</div>
+        <div class="P300 N900 mt-5">on 15th April, 2023 - Accra, Adenta</div>
       </div>
     </div>
   </div>
@@ -44,13 +44,13 @@ export default {
     return {
       groom : {
           id: 1,
-          name: "Jojo Akwaah Abbiw",
-          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680644493/_MG_56081_aq567q.jpg"
+          name: "William Selasie Adu",
+          photo: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680936709/photos/WhatsApp_Image_2023-04-05_at_7.16.00_PM_nzmehp.jpg"
         },
        bride: {
           id: 2,
-          name: "Alberta Opoku-Mensah",
-          photo: "https://res.cloudinary.com/akwaah/image/upload/v1680553608/IMG_8603_crcce5.jpg"
+          name: "Justine Delali Ama Diaba",
+          photo: "https://res.cloudinary.com/dcyay2pow/image/upload/v1680936265/photos/WhatsApp_Image_2023-04-05_at_7.50.09_PM_ol3hfu.jpg"
         }
       
     }

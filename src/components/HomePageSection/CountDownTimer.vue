@@ -27,7 +27,7 @@
   
   export default {
     setup() {
-      const countdownDate = new Date('April 22, 2023 00:00:00').getTime();
+      const countdownDate = new Date('April 15, 2023 00:00:00').getTime();
       const now = new Date().getTime();
       const timeLeft = countdownDate - now;
   
